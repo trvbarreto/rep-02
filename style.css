@@ -8,13 +8,15 @@ body {
 
 .hero {
     background-color: #1f2937;
-    padding: 15px 15vw;
+    padding: 15px 15vw 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 70px;
 }
 
 .header ul {
@@ -36,4 +38,42 @@ body {
     margin: 0;
     color: #f9faf8;
     font-size: 24px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.main p {
+    font-size: 18px;
+    color: #e5e7eb;   
+}
+
+.main img {
+    height: 300px;
+}
+
+.main button {
+    width: 150px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
 }
