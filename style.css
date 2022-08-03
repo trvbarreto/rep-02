@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 15px 15vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header h1 {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
