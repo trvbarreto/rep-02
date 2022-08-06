@@ -11,7 +11,9 @@ body {
     padding: 15px 15vw 100px;
 }
 
-.header, .main, .left-main {
+.header,
+.main,
+.left-main {
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +37,9 @@ body {
     color: #e5e7eb;
 }
 
-.header h1, .main h1, .main button {
+.header h1,
+.main h1,
+.main button {
     color: #f9faf8;
 }
 
@@ -58,7 +62,7 @@ body {
 
 .main p {
     font-size: 18px;
-    color: #e5e7eb;   
+    color: #e5e7eb;
 }
 
 .main button {
@@ -72,4 +76,25 @@ body {
 
 .main img {
     height: 300px;
+}
+
+.drinks-showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15vw;
+}
+
+.drinks-showcase img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.drinks-cards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
 }
