@@ -109,3 +109,24 @@ body {
     gap: 40px;
     color: #1f2937;;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px 25vw;
+}
+
+.quote p {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote span {
+    font-size: 18px;
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+}
